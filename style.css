@@ -51,6 +51,11 @@ body{
     width:1157px;
 }
 
+.product-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
 .product-img{
     margin-top: 80px;
 }
@@ -78,11 +83,22 @@ body{
     font-weight: 500;
     line-height: 18px;
     text-transform: uppercase;
-    background: #FB565A;
     color: white;
     border: 0px;
     height: 50px;
     width: 160px;
     cursor: pointer;
     margin-top: 32px;
+}
+
+.product-btn-pink{
+    background: #FB565A;
+}
+
+.product-btn-yellow{
+    background: #EFC849;
+}
+
+.product-btn-green{
+    background: #00CA74;
 }
